@@ -1,0 +1,460 @@
+{"nodes": [
+    {
+        "attributes": [
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "enabled",
+                "ioState": "input",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "label": "enabled_",
+                "ioState": "output",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "sync",
+                "ioState": "input",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "label": "_sync",
+                "ioState": "output",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "label": "error",
+                "ioState": "output",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "label": "images",
+                "ioState": "output",
+                "type": "java.util.ArrayList",
+                "required": true
+            },
+            {
+                "label": "image-0",
+                "ioState": "output",
+                "type": "java.awt.image.BufferedImage",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "2.(DownloadAndLoadDepthAnythingV2Model): model",
+                "ioState": "input",
+                "type": "java.lang.String",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "5.(VHS_LoadVideo): custom_height",
+                "ioState": "input",
+                "type": "java.lang.Integer",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "5.(VHS_LoadVideo): force_rate",
+                "ioState": "input",
+                "type": "java.lang.Integer",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "5.(VHS_LoadVideo): custom_width",
+                "ioState": "input",
+                "type": "java.lang.Integer",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "5.(VHS_LoadVideo): select_every_nth",
+                "ioState": "input",
+                "type": "java.lang.Integer",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "5.(VHS_LoadVideo): frame_load_cap",
+                "ioState": "input",
+                "type": "java.lang.Integer",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "output",
+                    "nodeID": -861536169
+                },
+                "label": "5.(VHS_LoadVideo): video",
+                "ioState": "input",
+                "type": "com.loom.Video",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "5.(VHS_LoadVideo): skip_first_frames",
+                "ioState": "input",
+                "type": "java.lang.Integer",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "5.(VHS_LoadVideo): force_size",
+                "ioState": "input",
+                "type": "java.lang.String",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): save_output",
+                "ioState": "input",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): filename_prefix",
+                "ioState": "input",
+                "type": "java.lang.String",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): megabit",
+                "ioState": "input",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): loop_count",
+                "ioState": "input",
+                "type": "java.lang.Integer",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): pix_fmt",
+                "ioState": "input",
+                "type": "java.lang.String",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): save_metadata",
+                "ioState": "input",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): format",
+                "ioState": "input",
+                "type": "java.lang.String",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): bitrate",
+                "ioState": "input",
+                "type": "java.lang.Integer",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "6.(VHS_VideoCombine): pingpong",
+                "ioState": "input",
+                "type": "java.lang.Boolean",
+                "required": true
+            }
+        ],
+        "id": -1329725354,
+        "class": "com.loom.graph.nodes.AutoComfyUIWorkflowNode",
+        "properties": {
+            "quick_6.(VHS_VideoCombine): save_output": true,
+            "quick_6.(VHS_VideoCombine): format": "video/nvenc_h264-mp4",
+            "workflow": {
+                "1": {
+                    "class_type": "DepthAnything_V2",
+                    "inputs": {
+                        "images": [
+                            "5",
+                            0
+                        ],
+                        "da_model": [
+                            "2",
+                            0
+                        ]
+                    },
+                    "_meta": {"title": "Depth Anything V2"}
+                },
+                "2": {
+                    "class_type": "DownloadAndLoadDepthAnythingV2Model",
+                    "inputs": {"model": "depth_anything_v2_vitl_fp32.safetensors"},
+                    "_meta": {"title": "DownloadAndLoadDepthAnythingV2Model"}
+                },
+                "5": {
+                    "class_type": "VHS_LoadVideo",
+                    "inputs": {
+                        "custom_height": 512,
+                        "force_rate": 0,
+                        "custom_width": 512,
+                        "select_every_nth": 1,
+                        "frame_load_cap": 0,
+                        "video": "watermarked_video0ed0e09c6801a4f4f929d8738c15ac18b.mp4",
+                        "skip_first_frames": 0,
+                        "force_size": "Disabled"
+                    },
+                    "_meta": {"title": "Load Video (Upload) 🎥🅥🅗🅢"}
+                },
+                "6": {
+                    "class_type": "VHS_VideoCombine",
+                    "inputs": {
+                        "save_output": true,
+                        "filename_prefix": "AnimateDiff",
+                        "megabit": true,
+                        "images": [
+                            "1",
+                            0
+                        ],
+                        "loop_count": 0,
+                        "pix_fmt": "yuv420p",
+                        "save_metadata": true,
+                        "format": "video/nvenc_h264-mp4",
+                        "bitrate": 10,
+                        "frame_rate": [
+                            "7",
+                            0
+                        ],
+                        "pingpong": false
+                    },
+                    "_meta": {"title": "Video Combine 🎥🅥🅗🅢"}
+                },
+                "7": {
+                    "class_type": "VHS_VideoInfo",
+                    "inputs": {"video_info": [
+                        "5",
+                        3
+                    ]},
+                    "_meta": {"title": "Video Info 🎥🅥🅗🅢"}
+                }
+            },
+            "quick_5.(VHS_LoadVideo): frame_load_cap": 0,
+            "quick_5.(VHS_LoadVideo): skip_first_frames": 0,
+            "quick_5.(VHS_LoadVideo): select_every_nth": 1,
+            "title": "depth-anything-video.json",
+            "quick_6.(VHS_VideoCombine): pix_fmt": "yuv420p",
+            "quick_6.(VHS_VideoCombine): save_metadata": true,
+            "quick_2.(DownloadAndLoadDepthAnythingV2Model): model": "depth_anything_v2_vitl_fp32.safetensors",
+            "quick_5.(VHS_LoadVideo): custom_height": 512,
+            "quick_5.(VHS_LoadVideo): custom_width": 512,
+            "quick_6.(VHS_VideoCombine): filename_prefix": "AnimateDiff",
+            "quick_6.(VHS_VideoCombine): megabit": true,
+            "quick_5.(VHS_LoadVideo): force_size": "Disabled",
+            "quick_6.(VHS_VideoCombine): bitrate": 10,
+            "quick_5.(VHS_LoadVideo): video": "",
+            "quick_5.(VHS_LoadVideo): force_rate": 0,
+            "quick_6.(VHS_VideoCombine): loop_count": 0,
+            "x": -335,
+            "y": -1277.5,
+            "quick_enabled": true,
+            "quick_6.(VHS_VideoCombine): pingpong": false
+        }
+    },
+    {
+        "attributes": [
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "enabled",
+                "ioState": "input",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "label": "enabled_",
+                "ioState": "output",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "sync",
+                "ioState": "input",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "label": "_sync",
+                "ioState": "output",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "label": "error",
+                "ioState": "output",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "value",
+                "ioState": "input",
+                "type": "com.loom.Video",
+                "required": false
+            },
+            {
+                "label": "output",
+                "ioState": "output",
+                "type": "com.loom.Video",
+                "required": true
+            }
+        ],
+        "id": -861536169,
+        "class": "com.loom.graph.nodes.ModuleInputNode",
+        "properties": {
+            "quick_value": "",
+            "options": "Text\nSelect\nNumber\nTrue/False\nJSON\nImage\nVideo\nList\nAny\n",
+            "x": -1167.4689,
+            "y": -598.2406,
+            "label": "video",
+            "quick_enabled": true,
+            "type": "com.loom.Video"
+        }
+    },
+    {
+        "attributes": [
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "enabled",
+                "ioState": "input",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "label": "enabled_",
+                "ioState": "output",
+                "type": "java.lang.Boolean",
+                "required": true
+            },
+            {
+                "connected": {
+                    "label": "",
+                    "nodeID": 0
+                },
+                "label": "sync",
+                "ioState": "input",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "label": "_sync",
+                "ioState": "output",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "label": "error",
+                "ioState": "output",
+                "type": "java.lang.Object",
+                "required": false
+            },
+            {
+                "connected": {
+                    "label": "image-0",
+                    "nodeID": -1329725354
+                },
+                "label": "value",
+                "ioState": "input",
+                "type": "com.loom.Video",
+                "required": false
+            }
+        ],
+        "id": -252116904,
+        "class": "com.loom.graph.nodes.ModuleOutputNode",
+        "properties": {
+            "quick_value": "",
+            "options": "Text\nSelect\nNumber\nTrue/False\nJSON\nImage\nVideo\nList\nAny\n",
+            "x": 1074.7484,
+            "y": -997.18176,
+            "label": "depth-video",
+            "quick_enabled": true,
+            "type": "com.loom.Video"
+        }
+    }
+]}
